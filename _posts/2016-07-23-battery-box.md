@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Battery Box Details & Pics"
+title: "Battery Box Details " &amp; " Pics"
 date: 2016-07-23
 ---
 
