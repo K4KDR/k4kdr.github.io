@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <Style id="plane_icon">
+      <IconStyle>
+        <Icon>
+          <href>http://destevez.net/wp-content/plugins/osm/icons/mic_black_pinother_02.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="plane">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#plane_icon</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#plane_icon</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+<Placemark>
+
+=====
+     Paste in the <Placemark>~~~~~~~</Placemark> entries created in GRC from a GOMX-3 pass,
+    give the resulting file a unique name (suggest date/time, etc.), and load it into
+	 Google Earth 
+=====
+
+</Placemark>
+    </Folder>
+  </Document>
+</kml>
