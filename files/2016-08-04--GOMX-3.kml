@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <Style id="plane_icon">
+      <IconStyle>
+        <Icon>
+          <href>http://destevez.net/wp-content/plugins/osm/icons/mic_black_pinother_02.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="plane">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#plane_icon</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#plane_icon</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+<Placemark>
+        <name>0xaba7b0</name>
+        <description>Altitude: 39000ft Time: 2016-08-04 03:32:07</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-78.986328125,36.2174072266</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0xae47fc</name>
+        <description>Altitude: 5650ft Time: 2016-08-04 03:32:37</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-78.9373474121,35.1304130554</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0xae0442</name>
+        <description>Altitude: 650ft Time: 2016-08-04 03:32:47</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-79.3114318848,34.7370300293</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0xc602e</name>
+        <description>Altitude: 37000ft Time: 2016-08-04 03:33:07</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-75.2607727051,37.4744567871</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0xadbb39</name>
+        <description>Altitude: 36975ft Time: 2016-08-04 03:33:17</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-78.091583252,32.2225341797</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0xadb782</name>
+        <description>Altitude: 36975ft Time: 2016-08-04 03:33:27</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-75.6423950195,35.2971954346</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0xadb782</name>
+        <description>Altitude: 37000ft Time: 2016-08-04 03:33:47</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-75.6246032715,35.3334960938</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0x4007ed</name>
+        <description>Altitude: 35000ft Time: 2016-08-04 03:34:17</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-71.2231140137,30.4000072479</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0xa11380</name>
+        <description>Altitude: 31000ft Time: 2016-08-04 03:34:27</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-69.7934570312,33.1465415955</coordinates></Point>
+</Placemark>
+<Placemark>
+        <name>0x3440cf</name>
+        <description>Altitude: 37000ft Time: 2016-08-04 03:34:37</description>
+        <styleUrl>#plane</styleUrl>
+        <Point><coordinates>-69.9402770996,33.2223815918</coordinates></Point>
+</Placemark>
+    </Folder>
+  </Document>
+</kml>
